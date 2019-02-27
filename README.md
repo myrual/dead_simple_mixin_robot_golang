@@ -17,7 +17,12 @@ $ echo $GOPATH
 $ ls $GOPATH
 bin pkg src
 
-$ ls $GOPATH/src
-github.com golang.org gopkg.in
+```
 
+### clone all source code into $GOPATH/src/github.com/user
+```bash
+$ ls $GOPATH/src/github.com/user
+dead_simple_mixin_robot_golang hello                          mixin-sdk-go                   mixinrobot                     stringutil
+$ cd $GOPATH/src/github.com/user
+$ git clone 
 ```
